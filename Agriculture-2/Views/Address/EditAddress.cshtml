@@ -1,0 +1,64 @@
+﻿@model EntitiyLayer.Models.Address
+
+@{
+    ViewData["Title"] = "EditAddress";
+    Layout = "~/Views/Shared/LTE_Admin.cshtml";
+}
+
+
+
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Adres Güncelleme Sayfası</h4>
+            <form class="forms-sample" method="post">
+                @* method post olunca çalışacak *@
+                @Html.HiddenFor(x=>x.AddressID)
+               
+                <div class="form-group">
+
+                    <label for="exampleInputName1">Açıklama-1</label>
+                    <span asp-validation-for="Description1" class="text-danger"></span>
+                    <input type="text" class="form-control" id="exampleInputName1" placeholder="Açıklama-1"
+                           asp-for="Description1"> @* asp-for önemli database de eklenecek yer *@
+                </div>                              @* id="exampleInputName1" label for ne için *@
+                <div class="form-group">
+
+                    <label for="exampleInputName2">Açıklama-2</label>
+                    <span asp-validation-for="Description2" class="text-danger"></span>
+                    <input type="text" class="form-control" id="exampleInputName2" placeholder="Açıklama-2"
+                           asp-for="Description2"> 
+                </div>
+                <div class="form-group">
+
+                    <label for="exampleInputName3">Açıklama-3</label>
+                    <span asp-validation-for="Description3" class="text-danger"></span>
+                    <input type="text" class="form-control" id="exampleInputName3" placeholder="Açıklama-3"
+                           asp-for="Description3">
+                </div>
+                <div class="form-group">
+
+                    <label for="exampleInputName4">Açıklama-4</label>
+                    <span asp-validation-for="Description4" class="text-danger"></span>
+                    <input type="text" class="form-control" id="exampleInputName4" placeholder="Açıklama-4"
+                           asp-for="Description4"> 
+                </div>
+                <div class="form-group">
+
+                    <label for="exampleInputName5">Mapİnfo</label>
+                    <span asp-validation-for="Mapinfo" class="text-danger"></span>
+                    <input type="text" class="form-control" id="exampleInputName5" placeholder="Mapİnfo"
+                           asp-for="Mapinfo">
+                </div>
+                
+
+                <button type="submit" class="btn btn-primary me-2">Güncelle</button>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+
+

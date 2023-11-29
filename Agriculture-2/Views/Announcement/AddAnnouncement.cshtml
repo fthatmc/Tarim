@@ -1,0 +1,28 @@
+﻿@model EntitiyLayer.Models.Announcemenet
+
+@{
+    ViewData["Title"] = "AddAnnouncement";
+    Layout = "~/Views/Shared/LTE_Admin.cshtml";
+}
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Yeni Duyuru Girişi</h4>
+            <form class="forms-sample" method="post"> @* method post olunca çalışacak *@
+                <div class="form-group">
+                    <label>Başlık</label>
+                    <input type="text" class="form-control" placeholder="Başlık Giriniz" asp-for="Title"> 
+                    @* asp-for önemli database de eklenecek yer *@
+                </div>
+                <div class="form-group">
+                    <label>Açıklama</label>
+                    <textarea cols="30" rows="5" class="form-control" placeholder="Açıklama Giriniz" asp-for="Description"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary me-2">Kaydet</button>
+                
+            </form>
+        </div>
+    </div>
+</div>
+

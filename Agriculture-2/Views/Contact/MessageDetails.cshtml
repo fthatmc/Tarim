@@ -1,0 +1,49 @@
+﻿@model EntitiyLayer.Models.Contact
+@{
+    ViewData["Title"] = "MessageDetails";
+    Layout = "~/Views/Shared/LTE_Admin.cshtml";
+}
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Personel Bilgi Güncelleme</h4>
+            <form class="forms-sample" method="get">
+                @* method post olunca çalışacak *@
+                <div class="form-group">
+                    @Html.HiddenFor(x=>x.ContactID)
+                    <label for="exampleInputName1">Adı Soyadı</label>
+                    <input type="text" class="form-control" id="exampleInputName1" placeholder="Ad Soyad"
+                     asp-for="Name"> 
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputName2">Mail</label>
+                    <input type="text" class="form-control" id="exampleInputName2" placeholder="Mail"
+                    asp-for="Mail">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputName3">Tarih</label>
+                    <input type="text" class="form-control" id="exampleInputName3" placeholder="Tarih"
+                           asp-for="Date">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputName4">Mesaj Detayı</label>
+                    <textarea cols="50" rows="4" class="form-control" id="exampleInputName4" placeholder="Mesaj Detayı"
+                              asp-for="Message"></textarea>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
