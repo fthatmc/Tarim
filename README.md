@@ -1,3 +1,39 @@
+# Agriculture
+
+## Projenin Amacı
+
+- Nesne Tabanlı Programlama'nın (Object Oriented Programming) inceliklerini,
+- Veri tabanı kayıt uygulamaları kontrol edebilmeyi,
+- Prosedür Yazabilmeyi,
+- Tetikleyici Yazabilmeyi,
+- OOP Alt Yapısında Kod Yazabilmeyi,
+- Sınıf & Nesne & Metot Gibi Başlıklarda Çok Daha İleri Seviyede Bilgi Sahibi Olabilmeyi,
+- ViewComponets Yapısını Öğrenebilmek hedeflenmiştir.
+
+## Kullanılan Teknolojiler ve Kütüphaneler
+- Asp.Net Core 5.0
+- Entity Framework CodeFirst
+- Generic Repository
+- SQL
+- Html
+- Css
+- Bootstrap
+- JavaScript
+- EPPlus Kütüphanesi
+- ClosedXML Kütüphanesi
+- FluentValidation Kütüphanesi
+
+ ## Öne Çıkan Özellikler
+ - Login Giriş Paneli
+ - LogOut
+ - Proje Seviyesinde Authorize
+ - FluentValidation Kontrolleri
+ - PartialView Kullanımı
+ - Linq Sorgulamaları
+ - ViewComponets 
+
+## Projeye Ait Bazı Görseller
+
 
 ![Ekran görüntüsü 2023-12-25 114602](https://github.com/fthatmc/Tarim/assets/136472585/040348ee-ea58-4aad-8aeb-a064b9e57501)
 
