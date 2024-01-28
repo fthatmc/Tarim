@@ -8,7 +8,7 @@
 - Tetikleyici Yazabilmeyi,
 - OOP Alt Yapısında Kod Yazabilmeyi,
 - Sınıf & Nesne & Metot Gibi Başlıklarda Çok Daha İleri Seviyede Bilgi Sahibi Olabilmeyi,
-- ViewComponets Yapısını Öğrenebilmek hedeflenmiştir.
+- ViewComponets Yapısını Öğrenebilmeyi hedeflemiştir.
 
 ## Kullanılan Teknolojiler ve Kütüphaneler
 - Asp.Net Core 5.0
