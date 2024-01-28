@@ -30,7 +30,9 @@
  - FluentValidation Kontrolleri
  - PartialView Kullanımı
  - Linq Sorgulamaları
- - ViewComponets 
+ - ViewComponets
+ - İstatistikler
+ - Grafik Kullanımı
 
 ## Projeye Ait Bazı Görseller
 
